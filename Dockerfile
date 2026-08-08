@@ -1,4 +1,4 @@
-FROM eclipse-temurin:17-jdk
+FROM mcr.microsoft.com/playwright/java:v1.49.0-noble
 
 WORKDIR /app
 
