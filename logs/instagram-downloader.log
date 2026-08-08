@@ -1,0 +1,59 @@
+2026-08-06 23:08:54.982 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-08-06 23:08:55.107 [main] INFO  c.a.i.d.app.InstaApplication - Starting InstaApplication using Java 17.0.8 with PID 23752 (C:\Users\am619\Downloads\insta\insta\target\classes started by am619 in C:\Users\am619\Downloads\insta\insta)
+2026-08-06 23:08:55.109 [main] INFO  c.a.i.d.app.InstaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-06 23:08:58.096 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-06 23:08:58.132 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8081"]
+2026-08-06 23:08:58.137 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-06 23:08:58.137 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-08-06 23:08:58.269 [main] INFO  o.a.c.c.C.[.[.[/insta-scrapper] - Initializing Spring embedded WebApplicationContext
+2026-08-06 23:08:58.270 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3076 ms
+2026-08-06 23:09:30.765 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8081"]
+2026-08-06 23:09:30.862 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/insta-scrapper'
+2026-08-06 23:09:30.890 [main] INFO  c.a.i.d.app.InstaApplication - Started InstaApplication in 36.478 seconds (process running for 37.525)
+2026-08-06 23:12:56.204 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-08-06 23:12:56.369 [main] INFO  c.a.i.d.app.InstaApplication - Starting InstaApplication using Java 17.0.8 with PID 39576 (C:\Users\am619\Downloads\insta\insta\target\classes started by am619 in C:\Users\am619\Downloads\insta\insta)
+2026-08-06 23:12:56.373 [main] INFO  c.a.i.d.app.InstaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-06 23:13:00.921 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-06 23:13:00.967 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-0.0.0.0-8081"]
+2026-08-06 23:13:00.973 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-06 23:13:00.974 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-08-06 23:13:01.224 [main] INFO  o.a.c.c.C.[.[.[/insta-scrapper] - Initializing Spring embedded WebApplicationContext
+2026-08-06 23:13:01.226 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4744 ms
+2026-08-06 23:13:20.823 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-0.0.0.0-8081"]
+2026-08-06 23:13:20.879 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/insta-scrapper'
+2026-08-06 23:13:20.903 [main] INFO  c.a.i.d.app.InstaApplication - Started InstaApplication in 25.304 seconds (process running for 26.327)
+2026-08-06 23:13:38.375 [http-nio-0.0.0.0-8081-exec-1] INFO  o.a.c.c.C.[.[.[/insta-scrapper] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-06 23:13:38.376 [http-nio-0.0.0.0-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-06 23:13:38.379 [http-nio-0.0.0.0-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2026-08-06 23:14:52.801 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-08-06 23:14:52.879 [main] INFO  c.a.i.d.app.InstaApplication - Starting InstaApplication using Java 17.0.8 with PID 38540 (C:\Users\am619\Downloads\insta\insta\target\classes started by am619 in C:\Users\am619\Downloads\insta\insta)
+2026-08-06 23:14:52.882 [main] INFO  c.a.i.d.app.InstaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-06 23:14:54.894 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-06 23:14:54.914 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-06 23:14:54.917 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-06 23:14:54.918 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-08-06 23:14:55.031 [main] INFO  o.a.c.c.C.[.[.[/insta-scrapper] - Initializing Spring embedded WebApplicationContext
+2026-08-06 23:14:55.032 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2067 ms
+2026-08-06 23:15:03.540 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-06 23:15:03.578 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/insta-scrapper'
+2026-08-06 23:15:03.589 [main] INFO  c.a.i.d.app.InstaApplication - Started InstaApplication in 11.174 seconds (process running for 11.709)
+2026-08-06 23:15:22.017 [http-nio-8081-exec-5] INFO  o.a.c.c.C.[.[.[/insta-scrapper] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-06 23:15:22.018 [http-nio-8081-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-06 23:15:22.018 [http-nio-8081-exec-5] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2026-08-06 23:19:17.352 [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-08-06 23:19:17.454 [main] INFO  c.a.i.d.app.InstaApplication - Starting InstaApplication using Java 17.0.8 with PID 15156 (C:\Users\am619\Downloads\insta\insta\target\classes started by am619 in C:\Users\am619\Downloads\insta\insta)
+2026-08-06 23:19:17.456 [main] INFO  c.a.i.d.app.InstaApplication - No active profile set, falling back to 1 default profile: "default"
+2026-08-06 23:19:19.633 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+2026-08-06 23:19:19.646 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2026-08-06 23:19:19.648 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-08-06 23:19:19.650 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.46]
+2026-08-06 23:19:19.738 [main] INFO  o.a.c.c.C.[.[.[/insta-scrapper] - Initializing Spring embedded WebApplicationContext
+2026-08-06 23:19:19.739 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2218 ms
+2026-08-06 23:19:29.840 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2026-08-06 23:19:29.881 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/insta-scrapper'
+2026-08-06 23:19:29.892 [main] INFO  c.a.i.d.app.InstaApplication - Started InstaApplication in 12.916 seconds (process running for 13.524)
+2026-08-06 23:19:35.839 [http-nio-8081-exec-2] INFO  o.a.c.c.C.[.[.[/insta-scrapper] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-06 23:19:35.839 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2026-08-06 23:19:35.842 [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2026-08-06 23:19:37.150 [http-nio-8081-exec-9] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 385 ms
+2026-08-06 23:20:37.644 [http-nio-8081-exec-4] INFO  c.a.i.d.a.c.DownloadController - Request received for URL [https://www.instagram.com/herbalife/reel/DbW4UlRF4mc/]

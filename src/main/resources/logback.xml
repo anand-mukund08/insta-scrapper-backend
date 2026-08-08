@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true" scanPeriod="30 seconds">
+
+    <!-- Define the base path and file name for logs -->
+    <property name="LOG_PATH" value="logs" />
+    <property name="LOG_FILE_NAME" value="instagram-downloader" />
+
+    <!-- 1. CONSOLE APPENDER (For local development/terminal reading) -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 2. ROLLING FILE APPENDER (For production archiving & rotation) -->
+    <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- Active log file path -->
+        <file>${LOG_PATH}/${LOG_FILE_NAME}.log</file>
+
+        <!-- Log Rotation Policy -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- 
+               Archive pattern: Rotates daily (%d) and splits by index (%i).
+               The '.gz' extension forces Logback to automatically compress older logs.
+            -->
+            <fileNamePattern>${LOG_PATH}/archived/${LOG_FILE_NAME}-%d{yyyy-MM-dd}.%i.log.gz</fileNamePattern>
+            
+            <!-- Individual file size limit before rotation triggers -->
+            <maxFileSize>10MB</maxFileSize>
+            
+            <!-- Keep up to 30 days of history -->
+            <maxHistory>30</maxHistory>
+            
+            <!-- Caps total size of all archives combined at 3GB; purges oldest files if exceeded -->
+            <totalSizeCap>3GB</totalSizeCap>
+            
+            <!-- Clean history on application startup if necessary -->
+            <cleanHistoryOnStart>false</cleanHistoryOnStart>
+        </rollingPolicy>
+
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 3. LOGGER LEVEL MANAGEMENT -->
+    
+    <!-- Mute noisy Playwright/Chromium driver internal execution logs unless it's a WARN/ERROR -->
+    <logger name="com.microsoft.playwright" level="WARN" />
+    
+    <!-- Track your service layer execution flows at standard INFO level -->
+    <logger name="com.anand.instagram.downloader" level="INFO" />
+
+    <!-- Root logger definition tying appenders together -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="ROLLING_FILE" />
+    </root>
+
+</configuration>
