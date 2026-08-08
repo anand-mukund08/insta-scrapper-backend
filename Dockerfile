@@ -5,6 +5,11 @@ WORKDIR /app
 COPY . .
 
 RUN chmod +x mvnw
+
 RUN ./mvnw clean package -DskipTests
 
-CMD ["sh", "-c", "java -jar target/*.jar"]
+RUN cp target/*.jar app.jar
+
+EXPOSE 10000
+
+CMD ["java", "-jar", "app.jar"]
